@@ -1,6 +1,6 @@
 import requests
 
-api_key = "c4be67b22e94e80a1a1ae79917a50137"
+api_key = "sua chave"
 urlIBGE = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/23/municipios"
 responseIBGE = requests.get(urlIBGE)
 data = responseIBGE.json()
