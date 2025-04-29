@@ -1,6 +1,10 @@
 import requests
+import os
+from dotenv import load_dotenv 
 
-api_key = "sua chave"
+load_dotenv()
+
+api_key = os.getenv("API_KEY")
 urlIBGE = "https://servicodados.ibge.gov.br/api/v1/localidades/estados/23/municipios"
 responseIBGE = requests.get(urlIBGE)
 data = responseIBGE.json()
