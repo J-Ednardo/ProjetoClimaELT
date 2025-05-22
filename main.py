@@ -1,6 +1,7 @@
 from services.ibge_service import get_cidades_ceara
 from services.weather_service import get_weather_data
 from services.database_service import connect_db, insert_dados_meteorologicos
+from services.export_csv_service import export_csv
 
 def main():
     conn = connect_db()
@@ -15,6 +16,8 @@ def main():
             print(f"Erro ao buscar dados de {cidade}: {error}")
 
     conn.close()
+
+    export_csv()
 
 if __name__ == "__main__":
     main()
