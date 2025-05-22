@@ -1,5 +1,4 @@
 id,cidade,temperatura_atual,sensacao_termica,descricao,umidade,temperatura_min,temperatura_max,velocidade_vento,data_medicao
-5,Aiuaba,29.9,29.69,nublado,41,29.9,29.9,6.08,2025-05-22 14:53:09
 1,Abaiara,26.18,26.18,nublado,58,26.18,26.18,2.23,2025-05-22 15:14:15
 2,Acarape,29.02,32.05,nublado,66,29.02,29.02,2.69,2025-05-22 15:10:16
 3,Acaraú,28.48,32.44,nuvens dispersas,75,28.48,28.48,6.49,2025-05-22 15:10:16
