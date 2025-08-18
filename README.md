@@ -4,20 +4,29 @@ Este projeto coleta dados climáticos de todas as cidades do estado do Ceará ut
 
 ---
 
+## 📊 Dashboard Interativo
+
+- **Visualização Geográfica:** Mapa interativo com a localização das estações meteorológicas e dados climáticos.
+- **Filtros Dinâmicos:** Filtre os dados por cidade, intervalo de datas ou condições do tempo.
+- **Gráficos Detalhados:** Análise de variações de temperatura, umidade, velocidade do vento e outras métricas ao longo do tempo.
+
+---
+
 ## 🚀 Funcionalidades
 
-- Busca a lista de cidades do Ceará via [API do IBGE](https://servicodados.ibge.gov.br/api).
-- Obtém dados meteorológicos atuais e previsão via [OpenWeather API](https://openweathermap.org/api).
-- Extrai temperatura, umidade, sensação térmica, vento, descrição do tempo, etc.
-- Salva os dados no banco de dados MySQL.
-- Atualiza automaticamente os dados existentes.
-- Arquitetura separada por camadas (model, service, main).
+- **Coleta de Cidades:** Busca a lista de cidades do Ceará via [API do IBGE](https://servicodados.ibge.gov.br/api).
+- **Dados Abrangentes:** Obtém dados meteorológicos atuais e previsão via [OpenWeather API](https://openweathermap.org/api).
+- **Extração Detalhada:** Extrai temperatura, umidade, sensação térmica, vento, descrição do tempo, etc.
+- **Armazenamento Robusto:** Salva os dados no banco de dados MySQL.
+- **Atualização Inteligente:** Atualiza automaticamente os dados existentes.
+- **Visualização Interativa:** Dashboard completo para análise e exploração dos dados climáticos. 
 
 ---
 
 ## ⚙️ Tecnologias Usadas
 
 - Python 3.10+
+- Streamlit
 - OpenWeather API
 - MySQL
 - Requests
