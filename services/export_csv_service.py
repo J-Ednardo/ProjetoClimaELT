@@ -2,7 +2,7 @@ import mysql.connector
 import pandas as pd
 from config import DB_CONFIG
 
-def export_csv(nome_arquivo="dados_climaticos.csv"):
+def export_csv(nome_arquivo="data/dados_climaticos.csv"):
     try:
         conn = mysql.connector.connect(**DB_CONFIG)
         query = "SELECT * FROM DadosClimaticos"
