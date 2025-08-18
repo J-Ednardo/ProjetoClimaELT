@@ -64,9 +64,7 @@ Este projeto coleta dados climáticos de todas as cidades do estado do Ceará ut
     ```
 
 3.  **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+   
 
 4.  **Configure as variáveis de ambiente:**
     * Renomeie o arquivo `.env.example` para `.env`.
