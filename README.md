@@ -43,3 +43,50 @@ Este projeto coleta dados climáticos de todas as cidades do estado do Ceará ut
 - Conta e chave de API no [OpenWeather](https://home.openweathermap.org/api_keys)
 
 ---
+
+## 🏁 Como Executar
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/seu-usuario/ProjetoClimaELT.git](https://github.com/seu-usuario/ProjetoClimaELT.git)
+    cd ProjetoClimaELT
+    ```
+
+2.  **Crie e ative um ambiente virtual:**
+    ```bash
+    # Linux/macOS
+    python3 -m venv venv
+    source venv/bin/activate
+
+    # Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+    ```
+
+3.  **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Configure as variáveis de ambiente:**
+    * Renomeie o arquivo `.env.example` para `.env`.
+    * Preencha as variáveis com suas credenciais do MySQL e a chave da API do OpenWeather.
+
+    ```ini
+    # .env
+    DB_HOST='localhost'
+    DB_USER='seu_usuario'
+    DB_PASSWORD='sua_senha'
+    DB_NAME='clima_ceara'
+    OPENWEATHER_API_KEY='sua_chave_api_aqui'
+    ```
+
+5.  **Execute o script de coleta de dados:**
+    ```bash
+    python main.py
+    ```
+
+6.  **Inicie o dashboard interativo:**
+    ```bash
+    streamlit run dashboard.py
+    ```
