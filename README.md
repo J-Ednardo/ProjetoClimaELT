@@ -1,6 +1,6 @@
 # 🌦️ ProjetoClimaELT
 
-Este projeto coleta dados climáticos de todas as cidades do estado do Ceará utilizando a API do OpenWeather, e os armazena em um banco de dados MySQL. Ele segue uma arquitetura organizada em camadas com separação de responsabilidades, facilitando a manutenção e escalabilidade.
+Este projeto coleta dados climáticos de todas as cidades do estado do Ceará utilizando a API do IBGE e do OpenWeather, e os armazena em um banco de dados MySQL. Ele segue uma arquitetura organizada em camadas com separação de responsabilidades, facilitando a manutenção e escalabilidade.
 
 ---
 
